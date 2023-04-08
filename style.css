@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(179, 56, 56);
+}
+#homettl {
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline;
+}
+.name {
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sea {
+    border-style: solid;
+    border-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+   
+}
+#exp {
+    text-align: center;  
+}
+.quote {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style:outset;
+    border-color: black;
+    text-align: center;
+    margin-block-start: 5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.links{
+    float: right;
+}
+.header {
+    display: block;
+    font-size: 1rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 1em 1em;
+}
+.headers {
+    text-decoration: underline;
+    text-align: center;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+   
+}
+#top {text-align: center;font-family: 'Times New Roman', Times, serif;}
+section {border-top: 1px solid #9c0000;}
+.picone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+   
+}
