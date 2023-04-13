@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css"> 
 
+    
+</head>
+<body>
+    <header class="header">
+        <span class="name">Toni Kay</span>
+    <nav class="links"> 
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a class="active" href="contact.html">CONTACT</a>
+    </nav>
+    </header>
+    <!--Flexbox-->
+    <div class="container">
+        <div class="one">"Free Mind"</div>
+        <div class="two">"Patience"</div>
+        <div class="three">"Self Disipline"</div>
+      </div>
+    <!--submission form-->
+    <h1 class="header">Your Contact Information</h1>
+<form>
+    <fieldset>
+      <label for="name">Name</label>
+      <input id="name" type="text">
+      <br><br>
+      <label for="email">Email</label>
+      <input id="email" type="text">
+      <br><br>
+      <label for="additionalinformation">Your Message To Me!</label>
+      <textarea id="additionalinformation"></textarea>
+      <br><br>
+      <button onClick="location.href='conact.js'">Submit</button>
+
+    </fieldset>
+</form>
+    <script src="contact.js"></script>
+    
+</body>
+</html>
